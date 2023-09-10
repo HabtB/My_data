@@ -1,0 +1,81 @@
+body, h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333; /* Change color as desired */
+}
+/* Apply styles to the Slack Name */
+[data-testid="slackUserName"] {
+    font-size: 24px;
+    color: #333; /* Change color as desired */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Apply styles to the Slack Display Picture */
+[data-testid="slackDisplayImage"] {
+    max-width: 150px;
+    height: auto; /* Set the desired height */
+    border-radius: 50%; /* Makes it a circle for profile pictures */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+/* Apply styles to the Current Day of the Week */
+[data-testid="currentDayOfTheWeek"] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555; /* Change color as desired */
+    margin-top: 10px;
+}
+
+/* Apply styles to the Current UTC Time */
+[data-testid="currentUTCTime"] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555; /* Change color as desired */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Apply styles to the Track */
+[data-testid="myTrack"] {
+    font-size: 18px;
+    font-style: italic;
+    color: #777; /* Change color as desired */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Apply styles to the GitHub URL */
+[data-testid="githubURL"] {
+    font-size: 16px;
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+[data-testid="githubURL"]:hover {
+    color: #0069D9;
+}
+
+
+ 
